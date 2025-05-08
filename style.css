@@ -1,8 +1,9 @@
 body {
-  background-color: antiquewhite;
+  background-color: #1e1e2f ;
   align-items: center;
   justify-self: center;
   margin: 0%;
+  color: white;
 }
 
 .gametable {
@@ -17,11 +18,11 @@ body {
 .gametable button {
   height: 100px;
   width: 100px;
-  background-color: #4caf50;
-  color: white;
+  background-color: #282c34;
+  color: rgb(255, 255, 255);
   text-align: center;
   
-  border: 3px solid black;
+  border: 3px solid #444444;
   font-size: xx-large;
   font-weight: 300;
 }
