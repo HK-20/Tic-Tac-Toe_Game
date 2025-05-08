@@ -1,0 +1,28 @@
+body {
+  background-color: antiquewhite;
+  align-items: center;
+  justify-self: center;
+  margin: 0%;
+}
+
+.gametable {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px; /* space between items */
+  width: 300px;
+  height: 300px;
+  margin: 0;
+}
+
+.gametable button {
+  height: 100px;
+  width: 100px;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  
+  border: 3px solid black;
+  font-size: xx-large;
+  font-weight: 300;
+}
+
